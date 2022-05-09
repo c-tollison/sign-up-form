@@ -1,0 +1,38 @@
+body {
+	height: 800px;
+	width: auto;
+	display: flex;
+}
+
+.left-body {
+	height: 800px;
+	width: 450px;
+	position: relative;
+}
+
+.plant-image {
+	height: 800px;
+	width: 450px;
+	position: absolute;
+}
+
+.image-body {
+	height: 100px;
+	width: 450px;
+	margin-top: 25vh;
+	position: absolute;
+	background: rgba(155, 175, 175, 0.25);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	height: 125px;
+	width: auto;
+}
+
+.image-body h1 {
+	color: rgb(246, 246, 246);
+	font-size: 48px;
+}
