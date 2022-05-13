@@ -2,6 +2,7 @@ body {
 	height: 800px;
 	width: auto;
 	display: flex;
+	font-family: "Raleway", sans-serif;
 }
 
 .left-body {
@@ -21,18 +22,65 @@ body {
 	width: 450px;
 	margin-top: 25vh;
 	position: absolute;
-	background: rgba(155, 175, 175, 0.25);
+	background: rgba(0, 0, 0, 0.5);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .logo {
-	height: 125px;
+	height: 100px;
 	width: auto;
 }
 
 .image-body h1 {
 	color: rgb(246, 246, 246);
 	font-size: 48px;
+}
+
+.image-footer {
+	height: 50px;
+	width: 450px;
+	position: absolute;
+	color: white;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-footer a {
+	color: white;
+}
+
+.right-body {
+	flex-grow: 1;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+}
+
+.right-top {
+	background: #f6f6f6;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-text {
+	width: 800px;
+	font-size: 24px;
+}
+
+.right-middle {
+	background-color: #d3d3d3;
+	height: 50vh;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	z-index: 1;
+}
+
+.right-bottom {
+	background: #f6f6f6;
+	height: 25vh;
 }
